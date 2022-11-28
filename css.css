@@ -1,0 +1,265 @@
+body {
+    margin: 2em;
+}
+
+#main {
+    max-width: 700px;
+    margin: auto;
+}
+
+#intro {
+    max-width: 500px;
+    /*   display: flex;
+      justify-content: space-between; */
+    margin: auto;
+    padding-top: 80px;
+    /*   background-color: #42d0c5; */
+}
+
+h1 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+    /*text-transform: uppercase;
+    font-weight: 700;*/
+    letter-spacing: 3px;
+    line-height: 1.8;
+    /*   margin-bottom: 1em; */
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.1em;
+    /*   text-transform: uppercase; */
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    margin-top: -0.5em;
+    line-height: 2;
+}
+
+.flag {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: -1em;
+    margin-top: 5em;
+    background-color: #42d0c5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-left: -40px;
+    display: inline-block;
+}
+
+
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: -0.5em;
+    /*   margin-bottom: 0.8em; */
+    margin-top: 2em;
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 3em;
+    margin-bottom: 0.8em;
+    text-transform: uppercase;
+
+    background-color: #D5FFF0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+h5 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: -1em;
+}
+
+.beispiele {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 0em;
+    /*   margin-left: 4em; */
+}
+
+.details {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+}
+
+li {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 0em;
+    margin-left: 2em;
+}
+
+.image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.image-hide {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#figma-frame {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 0em;
+}
+
+li {
+    line-height: 2em;
+}
+
+li::before {
+    margin-right: 1em;
+    content: '⦁ ';
+    font-size: 1em;
+}
+
+.questions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.questions li {
+    line-height: 2em;
+}
+
+.questions li::before {
+    content: '🔎 ';
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+
+.features-essential {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.features-essential li {
+    line-height: 2em;
+}
+
+.features-essential li::before {
+    content: '✏️ ';
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+
+.features-competitive {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.features-competitive li {
+    line-height: 2em;
+}
+
+.features-competitive li::before {
+    content: '🥇 ';
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+
+
+.testing li::before {
+    content: '✅ ';
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.testing li:nth-child(3)::before {
+    content: '❌ ';
+}
+
+.testing li:nth-child(4)::before {
+    content: '❌ ';
+}
+
+.recommendations li::before {
+    content: '✏️ ';
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+@media (min-width: 800px) {
+    .image {
+        max-width: 80%;
+        display: block;
+        height: auto;
+        margin: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    #figma-frame {
+        display: block;
+    }
+
+    .image-hide {
+        display: none;
+    }
+}
+
+.contact-link {
+    font-size: 0.8em;
+    color: black;
+}
+
+a {
+    color: black;
+    text-underline-offset: 0.25em;
+}
