@@ -107,6 +107,22 @@ h6 {
     /*   margin-left: 4em; */
 }
 
+.button {
+    background-color: #D5FFF0;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    height: auto;
+    margin: auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 0em;
+  }
+
 .details {
     font-family: Montserrat, sans-serif;
     font-size: 1em;
