@@ -160,6 +160,16 @@ li {
     padding-bottom: 2em;
 }
 
+.image2 {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-bottom: -2em;
+    /* padding-top: 2em; */
+    /* padding-bottom: 2em; */
+}
+
 .image-hide {
     max-width: 100%;
     display: block;
