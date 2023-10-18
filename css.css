@@ -118,9 +118,22 @@ h6 {
     margin-top: 2em;
 }
 
+.articles-box {
+    background-color: #ebf3f0;
+    padding-top: 0em;
+    margin-top: 2em;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    width: 100%;
+}
+
 .button {
-    background-color: #D5FFF0;
-    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
     color: black;
     padding: 15px 32px;
     text-align: center;
