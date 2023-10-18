@@ -107,6 +107,17 @@ h6 {
     /*   margin-left: 4em; */
 }
 
+.text-box {
+    background-color: #e6fff6;
+    font-size: 1em;
+    border-radius: 20px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 2em;
+    /* padding-top: 2em; */
+    margin-top: 2em;
+}
+
 .button {
     background-color: #D5FFF0;
     border: none;
