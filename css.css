@@ -107,6 +107,15 @@ h6 {
     /*   margin-left: 4em; */
 }
 
+.legend {
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8em;
+    line-height: 1;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
 .text-box {
     background-color: #e6fff6;
     font-size: 1em;
