@@ -9,29 +9,22 @@ body {
 
 #intro {
     max-width: 500px;
-    /*   display: flex;
-      justify-content: space-between; */
     margin: auto;
     padding-top: 80px;
-    /*   background-color: #42d0c5; */
 }
 
 h1 {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 1.5em;
-    /*text-transform: uppercase;
-    font-weight: 700;*/
     letter-spacing: 3px;
     line-height: 1.8;
-    /*   margin-bottom: 1em; */
 }
 
 h2 {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 1.1em;
-    /*   text-transform: uppercase; */
     font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 1em;
@@ -138,6 +131,7 @@ h6 {
     padding-bottom: 2em;
     width: 100%;
 }
+
 
 .button {
     background-color: transparent;
@@ -322,3 +316,48 @@ a {
     color: black;
     text-underline-offset: 0.25em;
 }
+
+/* Style the tab */
+.tab {
+    padding-top: 0em;
+    margin-top: 2em;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3em;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: #ccc;
+    border: 2px transparent;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    height: auto;
+    margin: auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 0em;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #42d0c5;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #42d0c5;
+  }
+  
