@@ -98,6 +98,15 @@ h3 {
     margin-top: 3em;
 }
 
+.paragraph-highlights {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    /*   margin-bottom: 0.8em; */
+    margin-top: 0.8em;
+}
+
 h4 {
     font-family: Montserrat, sans-serif;
     font-size: 1em;
@@ -125,9 +134,9 @@ h5 {
 h6 {
     font-family: Montserrat, sans-serif;
     font-size: 1em;
-    font-weight: 600;
-    margin-top: 2em;
-    margin-bottom: -1em;
+    font-weight: 400;
+    margin-top: 3em;
+    margin-bottom: -0.8em;
 }
 
 .beispiele {
@@ -171,6 +180,32 @@ h6 {
     /* padding-top: 2em; */
     margin-top: 2em;
 }
+
+.text-box2 {
+    background-color: #F5F4F0;
+    font-size: 1em;
+    border-radius: 20px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1em;
+    padding-top: 0.1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.text-box3 {
+    border: 4px solid #c4c4c4;
+    border-radius: 20px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
 
 .articles-box {
     background-color: #F5F4F0;
