@@ -206,6 +206,29 @@ h6 {
     flex-direction: row;
 }
 
+.three-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.three-column-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.three-column-icon {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
 
 .articles-box {
     background-color: #F5F4F0;
